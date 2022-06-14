@@ -1,6 +1,9 @@
 # Dart master
 GameBoy game developed with GB Studio. It is also possible to play it in the browser.
 
+## Play online
+[Play](https://dart-master-online.web.app)
+
 ## Download Rom
 You can play on real GameBoy or using emulator.
 

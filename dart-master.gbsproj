@@ -20808,7 +20808,7 @@
                                 ],
                                 "__collapseElse": false,
                                 "__disableElse": true,
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -28183,7 +28183,21 @@
                 0
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "9830e2a2-34b8-4001-84b4-7b35cc7729f1",
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "player",
+                        "__collapse": true,
+                        "__comment": false
+                    }
+                },
+                {
+                    "id": "c4a1fdd5-7e04-425e-943d-2e8be3472689",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -28203,39 +28217,32 @@
                     "script": [],
                     "startScript": [
                         {
-                            "id": "f51c0c13-283f-477d-9f1b-b19a1157c280",
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "player",
-                                "__collapse": true
-                            }
-                        },
-                        {
-                            "id": "33bd79e0-1ec6-45f5-bda0-de8c6cb5e1dd",
-                            "command": "EVENT_ACTOR_HIDE",
-                            "args": {
-                                "actorId": "$self$",
-                                "__collapse": true
-                            }
-                        },
-                        {
-                            "id": "855f29c2-acd0-4acb-acc1-67dea9a9f0b4",
+                            "id": "d5ae6eb1-5719-48c9-ae55-4f962492008d",
                             "command": "EVENT_END"
                         }
                     ],
                     "updateScript": [
                         {
-                            "id": "ed4f57a4-c3b9-43fe-a259-4fcd4193a133",
+                            "id": "b44da1c0-6781-4eaf-90d1-36ec65aba88c",
+                            "command": "EVENT_ACTOR_HIDE",
+                            "args": {
+                                "actorId": "e3d5ea49-33a9-4ef9-badc-2e33a6391af6",
+                                "__collapse": true,
+                                "__comment": false
+                            }
+                        },
+                        {
+                            "id": "f3eb9596-b23a-4950-be20-fabe6f250973",
                             "command": "EVENT_AWAIT_INPUT",
                             "args": {
                                 "input": [
                                     "b"
                                 ],
-                                "__collapse": false
+                                "__collapse": true
                             }
                         },
                         {
-                            "id": "cd38bbf6-49ca-431a-a074-80383d6a285e",
+                            "id": "246e93fa-64d8-4074-ac08-2e9ffb67b8b5",
                             "command": "EVENT_IF_INPUT",
                             "args": {
                                 "input": [
@@ -28243,19 +28250,19 @@
                                 ],
                                 "__collapseElse": false,
                                 "__disableElse": true,
-                                "__collapse": false
+                                "__collapse": true
                             },
                             "children": {
                                 "true": [
                                     {
-                                        "id": "45d4bd78-1300-4ca3-ad15-cb2fd25efa8c",
+                                        "id": "030814ba-bcf4-47e0-8c18-ec0fa70b66bc",
                                         "command": "EVENT_SCENE_RESET_STATE",
                                         "args": {
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
-                                        "id": "413947a0-ef11-4893-a8ab-ee3c8a9e1901",
+                                        "id": "993ae56b-8def-45d2-bb5a-702382cd599a",
                                         "command": "EVENT_SWITCH_SCENE",
                                         "args": {
                                             "sceneId": "cf2fcd40-d420-420c-86ab-cae524d49d7d",
@@ -28263,24 +28270,24 @@
                                             "y": 5,
                                             "direction": "",
                                             "fadeSpeed": "3",
-                                            "__collapse": true
+                                            "__collapse": false
                                         }
                                     },
                                     {
-                                        "id": "6148e86d-b3c6-4b54-a108-4c4799bac666",
+                                        "id": "9023e15d-facd-4ce4-a196-95911e499bcb",
                                         "command": "EVENT_END"
                                     }
                                 ],
                                 "false": [
                                     {
-                                        "id": "d17f1708-44ad-4691-a38c-bbb233331c0b",
+                                        "id": "ca88b40b-4c57-4607-b062-de91a88bac33",
                                         "command": "EVENT_END"
                                     }
                                 ]
                             }
                         },
                         {
-                            "id": "2121d1ee-f879-4b27-adcd-e251b2e3daaf",
+                            "id": "327635c2-7a01-4f2f-b06f-e5aa2dfd9551",
                             "command": "EVENT_END"
                         }
                     ],
@@ -28306,7 +28313,7 @@
             "imageHeight": 144,
             "filename": "black.png",
             "inode": "103044020",
-            "_v": 1655146317294
+            "_v": 1655188707008
         },
         {
             "id": "58f57d64-3067-4931-b888-5cccbdaba8a4",
@@ -28317,7 +28324,7 @@
             "imageHeight": 144,
             "filename": "credits-menu.png",
             "inode": "142895618",
-            "_v": 1655146317294
+            "_v": 1655188707008
         },
         {
             "id": "868d6bbe-b048-474f-bfe6-1597969618c9",
@@ -28328,7 +28335,7 @@
             "imageHeight": 144,
             "filename": "cricket-dartboard.png",
             "inode": "106513217",
-            "_v": 1655146317294
+            "_v": 1655188707008
         },
         {
             "id": "be408712-f573-4920-bdfd-c05a7de244de",
@@ -28339,7 +28346,7 @@
             "imageHeight": 144,
             "filename": "cricket-menu.png",
             "inode": "105935340",
-            "_v": 1655146317294
+            "_v": 1655188707008
         },
         {
             "id": "08552654-1add-4f3b-b96c-a11988489319",
@@ -28350,7 +28357,7 @@
             "imageHeight": 144,
             "filename": "cricket-position-selected-bull.png",
             "inode": "106509165",
-            "_v": 1655146317294
+            "_v": 1655188707008
         },
         {
             "id": "c5c4873b-7cbc-474b-8aef-9fb11f7dbb09",
@@ -28361,7 +28368,7 @@
             "imageHeight": 144,
             "filename": "cricket-position-selected.png",
             "inode": "106330560",
-            "_v": 1655146317294
+            "_v": 1655188707008
         },
         {
             "id": "eced270e-95d6-4e2a-8898-5a2abc5e3fda",
@@ -28372,7 +28379,7 @@
             "imageHeight": 144,
             "filename": "cricket-win.png",
             "inode": "107417620",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -28383,7 +28390,7 @@
             "imageHeight": 144,
             "filename": "logo.png",
             "inode": "103044011",
-            "_v": 1655146317294
+            "_v": 1655188707008
         },
         {
             "id": "01afa03f-ff4a-4b28-8d61-f9f37f5a02ec",
@@ -28394,7 +28401,7 @@
             "imageHeight": 144,
             "filename": "mode-selection.png",
             "inode": "142887654",
-            "_v": 1655146317294
+            "_v": 1655188707008
         },
         {
             "id": "1cbe768a-6a11-4cd0-b6e1-b4dc534abdea",
@@ -28405,7 +28412,7 @@
             "imageHeight": 144,
             "filename": "round-the-clock-dartboard.png",
             "inode": "107537666",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "dc1dfef0-dc8b-4778-adf4-19d103d79694",
@@ -28416,7 +28423,7 @@
             "imageHeight": 144,
             "filename": "round-the-clock-menu.png",
             "inode": "109016806",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "c3bc1b98-4aa5-4b5f-b2ff-751efb6ed204",
@@ -28427,7 +28434,7 @@
             "imageHeight": 144,
             "filename": "round-the-clock-position-selected.png",
             "inode": "109549571",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -28438,7 +28445,7 @@
             "imageHeight": 144,
             "filename": "titlescreen.png",
             "inode": "142887532",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "c34c2580-b700-41ba-ac4c-0858403c32c0",
@@ -28449,7 +28456,7 @@
             "imageHeight": 144,
             "filename": "x01-dartboard.png",
             "inode": "105859285",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "03d87409-2b37-4d55-bd18-1cba0ab142b0",
@@ -28460,7 +28467,7 @@
             "imageHeight": 144,
             "filename": "x01-menu.png",
             "inode": "105378306",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "5d0c8f02-47b6-453c-998c-939045aecfc9",
@@ -28471,7 +28478,7 @@
             "imageHeight": 144,
             "filename": "x01-pause.png",
             "inode": "105865967",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "66a4582d-582d-4010-8876-451b49b6aad1",
@@ -28482,7 +28489,7 @@
             "imageHeight": 144,
             "filename": "x01-position-selected-bull.png",
             "inode": "106509134",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "74420dfc-245d-4a08-9245-34c562b9f88a",
@@ -28493,7 +28500,7 @@
             "imageHeight": 144,
             "filename": "x01-position-selected.png",
             "inode": "105867048",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "f525cf96-194c-46a9-b1ae-1b70239fb928",
@@ -28504,7 +28511,7 @@
             "imageHeight": 144,
             "filename": "x01-win.png",
             "inode": "105861171",
-            "_v": 1655146317294
+            "_v": 1655188707009
         }
     ],
     "spriteSheets": [
@@ -28515,7 +28522,7 @@
             "type": "static",
             "filename": "bullet.png",
             "inode": "103043985",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "a827b612-578f-4cb9-a2bf-fd54b197b83f",
@@ -28524,7 +28531,7 @@
             "type": "animated",
             "filename": "cursor.png",
             "inode": "103043979",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "62073b18-8367-4e1d-b42d-152696231d94",
@@ -28533,7 +28540,7 @@
             "type": "animated",
             "filename": "dart-selector-empty.png",
             "inode": "104149079",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "dae7a655-3013-4fdb-ac16-f031f4bb25cd",
@@ -28542,7 +28549,7 @@
             "type": "static",
             "filename": "dart-selector-to-left.png",
             "inode": "105867166",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "f01a533d-08fa-489c-aee0-17092d289bff",
@@ -28551,7 +28558,7 @@
             "type": "animated",
             "filename": "dart-selector.png",
             "inode": "105040783",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "788a436c-9ec8-4542-ac69-4347bdf4fb51",
@@ -28560,7 +28567,7 @@
             "type": "animated",
             "filename": "digits-cricket-align-center.png",
             "inode": "105954700",
-            "_v": 1655146317294
+            "_v": 1655188707009
         },
         {
             "id": "dd936b0f-f4b3-4095-a120-8ad8b1a99325",
@@ -28569,7 +28576,7 @@
             "type": "animated",
             "filename": "digits-cricket-align-right.png",
             "inode": "105954940",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "8db0ccc9-8093-43de-872e-b4296f34417a",
@@ -28578,7 +28585,7 @@
             "type": "animated",
             "filename": "digits-sets-goal-green-light.png",
             "inode": "105872228",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "fe97950f-cc0e-4bfd-8ae3-480a1a41a8b5",
@@ -28587,7 +28594,7 @@
             "type": "animated",
             "filename": "digits-thick-dark.png",
             "inode": "105178239",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "6bcd546f-8d5a-4075-a80c-c92dbe0f2d35",
@@ -28596,7 +28603,7 @@
             "type": "animated",
             "filename": "digits-thick-dartboard-position.png",
             "inode": "104637468",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "f532b501-57b3-4c1e-9b1e-2304b1099528",
@@ -28605,7 +28612,7 @@
             "type": "animated",
             "filename": "digits-thick-light.png",
             "inode": "105157681",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "e84aacfb-5ba0-4c0e-a0ec-de6d90250ad3",
@@ -28614,7 +28621,7 @@
             "type": "animated",
             "filename": "digits-thick-medium.png",
             "inode": "106513315",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -28623,7 +28630,7 @@
             "type": "actor",
             "filename": "npc001.png",
             "inode": "103043964",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -28632,7 +28639,7 @@
             "type": "actor_animated",
             "filename": "player.png",
             "inode": "103043957",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "9db90cca-1c1d-4d85-a79d-16dd38151382",
@@ -28641,7 +28648,7 @@
             "type": "static",
             "filename": "referee.png",
             "inode": "103882840",
-            "_v": 1655146317295
+            "_v": 1655188707009
         },
         {
             "id": "40ef2c0e-9117-44a8-8cc2-997dbdb52454",
@@ -28650,7 +28657,7 @@
             "type": "static",
             "filename": "to.png",
             "inode": "105311118",
-            "_v": 1655146317295
+            "_v": 1655188707009
         }
     ],
     "palettes": [
@@ -31539,7 +31546,7 @@
             "filename": "MBR Settings.mod",
             "settings": {},
             "inode": "142891101",
-            "_v": 1655146317289
+            "_v": 1655188707002
         },
         {
             "id": "d211b48f-3d74-4b04-91b4-8dcec1777c26",
@@ -31547,7 +31554,7 @@
             "filename": "Radical Victory.mod",
             "settings": {},
             "inode": "142913106",
-            "_v": 1655146317289
+            "_v": 1655188707002
         },
         {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
@@ -31555,7 +31562,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "103043988",
-            "_v": 1655146317289
+            "_v": 1655188707002
         }
     ],
     "variables": [
@@ -32118,8 +32125,8 @@
         "startY": 12,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 387,
-        "worldScrollY": 0,
+        "worldScrollX": 128,
+        "worldScrollY": 64,
         "zoom": 138.73108813166618,
         "customColorsEnabled": false,
         "defaultBackgroundPaletteIds": [

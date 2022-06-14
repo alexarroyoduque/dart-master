@@ -41,5 +41,25 @@
     <script src="js/other/resize.js"></script>    
     <script src="js/GameBoyCore.js"></script>
     <script src="js/GameBoyIO.js"></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyA0diIJeaqWrJ9j3jRmNcmlpL2bIHg_2RA",
+        authDomain: "dart-master-online.firebaseapp.com",
+        projectId: "dart-master-online",
+        storageBucket: "dart-master-online.appspot.com",
+        messagingSenderId: "464504411494",
+        appId: "1:464504411494:web:f599dcc9abf30f33c164a7"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
   </body>
 </html>
