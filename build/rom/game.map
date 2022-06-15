@@ -202,7 +202,7 @@ AREA .  .ABS.
 		s__GSINITTAIL	3789
 		s__GSFINAL	378A
 		l__CODE_8	3FEE
-		l__CODE_6	3FFB
+		l__CODE_6	3FFA
 		l__CODE_7	3FFE
 		s__CODE_10	4000
 		s__CODE_1	4000
@@ -1021,7 +1021,7 @@ AREA _XSEG
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 3FFB
+	SIZE 3FFA
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
@@ -1491,64 +1491,64 @@ MODULES
 		NAME Runtime
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Actor_a.o
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Actor_b.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx°y0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxÑ`æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Actor.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxp0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxĞØ`æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/asm.macros.o
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/BankData.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxPˆ0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx°ß`æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/BankManager.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxŒ0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxpã`æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Camera_a.o
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Camera.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxÀ0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx è`æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Collision.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx°”0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxì`æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Core_Main.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx0¨0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxÿ`æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/DataManager.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx´0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxğaæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/FadeManager_b.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx@»0Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/FadeManager.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxT
+		NAME _var_folders_mx_byqtdx3s55z5v5cxpaæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/gbt_player_bank1.o
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/gbt_player.o
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Input.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxğ^ Üû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx0&aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Math.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx°Z@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx°)aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/MusicManager.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx`b@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Palette.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxpf@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx5aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Projectiles_b.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx0j@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxĞ8aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Projectiles.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx`m@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx`<aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/ScriptRunner_b.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx°x@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx°Gaæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/ScriptRunner.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx œ@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx kaæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Scroll_a.o
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Scroll_b.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx£@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxraæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Scroll.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxà¦@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxàuaæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Sprite_b.o
 		NAME _var_folders_mx_byqtdx3s55z5v5cx
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Sprite.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx®@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx}aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Stack.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx€°@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx€aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Trigger_b.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx°²@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx°aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Trigger.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxPµ@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxP„aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/UI_b.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxPÁ@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxPaæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/UI.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxÀÌ@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxÀ›aæ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/bank_6.o
 		NAME bank_6
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/bank_7.o
@@ -1558,21 +1558,21 @@ MODULES
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/bank_9.o
 		NAME bank_9
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/data_ptrs.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cxÀÛ@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxpœ@æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/main.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx@á@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/music_bank_10.o
 		NAME music_bank_10
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Adventure.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx@ç@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cxÀÑ@æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Platform.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx
+		NAME _var_folders_mx_byqtdx3s55z5v5cx€Ô@æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/PointNClick.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx í@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx Ø@æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/Shmup.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx ğ@Øû
+		NAME _var_folders_mx_byqtdx3s55z5v5cx Û@æ”
 	FILE /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbsbuild/obj/TopDown.o
-		NAME _var_folders_mx_byqtdx3s55z5v5cx
+		NAME _var_folders_mx_byqtdx3s55z5v5cx€Ş@æ”
 LIBRARIES
 	LIBRARY /var/folders/mx/byqtdx3s55z5v5cx091xwprh0000gp/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o

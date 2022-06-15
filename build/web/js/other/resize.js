@@ -8,7 +8,7 @@ function bindResize() {
       canvas.style.width = window.innerWidth + "px";
       canvas.style.height = "auto";
     } else {
-      canvas.style.height = window.innerHeight - 50  + "px";
+      canvas.style.height = window.innerHeight - 40 + "px";
       canvas.style.width = "auto";
     }
   }
